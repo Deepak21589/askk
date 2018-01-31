@@ -8,7 +8,7 @@ int main(void)
 for(i=5;i<=a;i++)	
 {
 	i=i*a;
-	printf("\nNums:%d",i);
+	printf("\nNums:5*%d=%d",i*a);
 }
 
 	return 0;
