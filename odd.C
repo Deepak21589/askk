@@ -2,11 +2,11 @@
 
 int main(void) 
 {
-	int s,b,i;
+	long int s,b,i;
 	printf("\nEnter  intial number to find odd num :");
-	scanf("%d",&s);
+	scanf("%ld",&s);
 	printf("\nEnter final number to find odd num :");
-	scanf("%d",&b);
+	scanf("%ld",&b);
 	for(i=s;i<=b;i++)
 	{
 		if(i%2==1)
