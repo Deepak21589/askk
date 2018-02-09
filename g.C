@@ -2,6 +2,8 @@
 int main()
 {
     int n,m,i,hcf;
+    printf("\nenter the array length%d",n);
+    printf("\n enter the array elements%d",m)
     scanf("%d %d",&n,&m);
     for(i=1;i<=n && i<=m;i++)
     {
